@@ -3,6 +3,7 @@
 </template>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,100&display=swap');
 :root {
   --blanco: #e0e0e0;
   --blanco-2: rgba(255,255,255,.2);
@@ -10,7 +11,7 @@
   --negro-5: rgba(0, 0, 0, 0.5);
   --negro-7: rgba(0, 0, 0, 0.75);
   --tipo-titular:'Playfair Display', serif;
-  --tipo-principal:'Inter', sans-serif;
+  --tipo-principal:'Roboto', sans-serif;
 }
 
 @media screen and (prefers-color-scheme:light){
@@ -23,6 +24,7 @@
   }
 }
   * {
+
     margin: 0;
     padding: 0;
     border: 0;
